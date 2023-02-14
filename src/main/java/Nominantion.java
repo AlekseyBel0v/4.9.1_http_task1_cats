@@ -11,7 +11,7 @@ public class Nominantion {
         return upvotes;
     }
 
-    Nominantion(
+    public Nominantion(
             @JsonProperty("id") String id,
             @JsonProperty("text") String text,
             @JsonProperty("type") String type,
